@@ -1,8 +1,27 @@
 aid: proxima-fusion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proxima-fusion.png
 name: Proxima Fusion
-description: Proxima Fusion is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Proxima Fusion is a Munich-based fusion energy company building the first
+  generation of commercial fusion power plants using quasi-isodynamic (QI)
+  stellarators. Spun out of the Max Planck Institute for Plasma Physics, the
+  company is developing Stellaris, a stellarator power plant concept, with
+  milestones that include a Stellarator Model Coil and an Alpha demonstration
+  stellarator on the path to grid-scale fusion energy. Proxima Fusion is a
+  privately held deep-tech startup and does not currently publish a public API,
+  developer portal, SDK, or machine-readable API surface; this profile captures
+  its identity and public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/proxima-fusion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fusion Energy
+- Energy
+- Deep Tech
+- Stellarator
+- Clean Energy
+- Climate
 apis: []
+common:
+- type: Website
+  url: https://www.proximafusion.com
+- type: Blog
+  url: https://www.proximafusion.com/press-news
+- type: PrivacyPolicy
+  url: https://www.proximafusion.com/privacy-policy
+- type: TermsOfService
+  url: https://www.proximafusion.com/imprint
+- type: DomainSecurity
+  url: security/proxima-fusion-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
